@@ -1,0 +1,155 @@
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    background-color: lightgray;
+    height: 3.5em;
+    border-bottom: 1px solid black;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    top: 0 auto;
+}
+
+a,
+.icon {
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -8px;
+    width: 25%;
+    text-align: center;
+    padding: 1em;
+}
+
+.fa {
+    color: black;
+}
+
+a,
+.fa:hover {
+    color: blue;
+}
+
+.container {
+    background: #FAFAFA;
+    width: 100%;
+    top: 3.5em;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#card {
+    /*shadow*/
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    bottom: 3em;
+    background-color: white;
+    height: 41.2em;
+    margin: 0 auto;
+    width: 25em;
+}
+
+.card-header {
+    padding: 15px;
+}
+
+.profile-img {
+    display: inline-block;
+    bottom: 8px;
+    height: 1.8em;
+    width: 1.8em;
+    background: red;
+    border-radius: 5em;
+    position: relative;
+    right: 5px;
+}
+
+.profile-info {
+    display: inline-block;
+    position: sticky;
+    left: 15px;
+
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: 700;
+    left: 5px;
+}
+
+.location {
+    font-size: .8em;
+    top: -5px;
+}
+
+.time {
+    display: inline-block;
+    float: right;
+    position: sticky;
+    margin: 0;
+}
+
+.media {
+    height: 25em;
+    width: 100%;
+    right: 5em;
+}
+
+.card-footer {
+    overflow: auto;
+    padding: 5px;
+}
+
+.description {
+    padding-top: 0;
+}
+
+.likes {
+    font-size: .9em;
+    padding: 5px;
+}
+
+.username {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0, 0, 5px, 0;
+}
+
+form {
+    display: inline-block;
+    padding-top: 6px;
+}
+
+
+input {
+    left: 16px;
+    border: 1px solid white;
+    width: 23em;
+    height: 2.3em;
+}
+
+.heart {
+    display: inline-block;
+    padding-right: 1.5em;
+}
+
+.options {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+.linebreak {
+    border: .1em solid black;
+    border-radius: 25px;
+}
